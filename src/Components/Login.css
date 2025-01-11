@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: rgba(32, 32, 181, 0.97); */
+    background-image: url('../assets//lightened-luxury-sedan-car-against-night-city-with-headlamps-rear-tail-lights-lit_1284-28804.jpg');
+    
+
+}
+
+.login-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 55%;
+    height: 65%;
+}
+
+.login-form .form-container {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.login-form .form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.login-form .form-container .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.login-form .form-container .input-group label {
+    flex: 1;
+    font-weight: bold;
+    text-align: left;
+}
+
+.login-form .form-container .input-group input {
+    flex: 2;
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.login-form .form-container button {
+    padding: 10px 20px;
+    background-color: #1d82a4;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin-left: 150px;
+    width: 32%;
+}
+
+.para1 {
+    font-size: 14px;
+}
+
+.login-form .form-container button:hover {
+    background-color: rgb(15, 15, 150);
+}
+
+.para {
+    font-size: 13px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.login-form .image-container {
+    flex: 0 0 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.login-form .form-container p a {
+    text-decoration: none;
+    color: #2995b9;
+    font-weight: bold;
+}
+
+.login-form .form-container p a:hover {
+    color: blue;
+}
