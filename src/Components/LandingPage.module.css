@@ -1,0 +1,277 @@
+body {
+    font-family: 'Roboto', system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbarWhite {
+    background-color: white !important;
+    color: black;
+}
+
+.logoImg {
+    height: auto;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.line {
+    height: 45px;
+    width: 1px;
+    background-color: black;
+    margin-right: 12px;
+    align-self: center;
+}
+
+.navbarBrand {
+    display: flex;
+    align-items: center;
+}
+
+.navliks {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.navliks .nav-link {
+    font-size: 18px;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.navliks .nav-link:hover {
+    color: darkgray;
+}
+
+.searchIcon {
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    position: absolute;
+    top: 35%;
+    z-index: 10;
+    padding: 10px;
+}
+
+
+.heading h3 {
+    margin: 0;
+}
+
+.heading h1 {
+    margin-top: 20px;
+    text-align: left;
+    width: 700px;
+}
+
+
+.heading button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.heading button:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+
+.textOverlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+    padding: 10px;
+}
+
+
+.p1,
+.p2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+.head1,
+.head2 {
+    font-size: 35px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    line-height: 45px;
+    margin-bottom: 10px;
+}
+
+
+.butt2,
+.butt3 {
+    width: 140px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.butt2:hover,
+.butt3:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.col-12.col-md-6 {
+    margin-bottom: 20px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.col-12.col-md-6 {
+    padding: 0;
+}
+
+.text {
+
+    font-size: 20px;
+    color: black;
+}
+
+
+
+.text3 {
+    font-size: 20px;
+    color: black;
+    margin-left: -10px;
+}
+
+.padding1 {
+    margin-top: 50px;
+}
+
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.textFirst {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.textTwo {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 2px;
+}
+
+.footerLinks {
+    text-align: start;
+    margin-left: 60px;
+}
+
+.quickLinksHeader {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.linksList {
+    list-style: none;
+    padding: 0;
+    text-align: start;
+    width: 180px;
+    font-size: 15px;
+}
+
+.linksList li {
+    margin: 8px 0;
+}
+
+.linksList a {
+    color: #a3a1a1;
+    text-decoration: none;
+}
+
+.linksList a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footerCopy {
+    margin-left: 60px;
+}
+
+.hr1 {
+    width: 180px;
+}
+
+.linkss {
+    width: 150px;
+}
